@@ -1,0 +1,15 @@
+.box_message {
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    justify-self: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.30);
+
+}
+
+.container {
+    display: grid;
+}

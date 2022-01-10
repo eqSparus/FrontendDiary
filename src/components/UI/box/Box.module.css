@@ -1,0 +1,9 @@
+.box {
+    margin-top: 40px;
+    justify-self: center;
+    border: solid 1px #F0F0F0;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #C0C0C0, #F0F0F0);
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.25);
+}
+

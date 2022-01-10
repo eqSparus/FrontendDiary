@@ -1,0 +1,124 @@
+.write_container {
+    font-size: 14pt;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-self: end;
+}
+
+.write_container .hr {
+    height: 1px;
+    background: black;
+    margin: 0 0 0 0;
+}
+
+.write_container select {
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #e1dfdf;
+    box-shadow: inset 24px 24px 69px #a7a5a5,
+    inset -24px -24px 69px #ffffff;
+}
+
+.write_container select:focus {
+    box-shadow: 0 0 5px 2px #313030;
+}
+
+.write_container select option {
+    background: #e1dfdf;
+}
+
+.content:focus {
+    outline: none;
+    background: #e1dfdf;
+    box-shadow: inset 24px 24px 69px #a7a5a5,
+    inset -24px -24px 69px #ffffff,
+    0 0 5px 2px #313030;
+    border: none;
+}
+
+.content {
+    scrollbar-width: thin;
+    scrollbar-color: #636161 #C0C0C0;
+    position: relative;
+    height: 80px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #e1dfdf;
+    box-shadow: inset 24px 24px 69px #a7a5a5,
+    inset -24px -24px 69px #ffffff;
+    word-wrap: break-word;
+    resize: none;
+    border: none;
+}
+
+*::-webkit-scrollbar,
+.content *::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track,
+.content *::-webkit-scrollbar-track {
+    background: #C0C0C0;
+}
+
+*::-webkit-scrollbar-thumb,
+.content *::-webkit-scrollbar-thumb {
+    background-color: #636161;
+}
+
+.push_record {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    align-self: end;
+    border: none;
+    padding: 10px;
+    background: #313030;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.push_record svg {
+    justify-self: center;
+    align-self: center;
+    fill: white;
+}
+
+.push_record:hover{
+    background: #201F1F;
+}
+
+.push_record:disabled{
+    background: #4d4d4d;
+}
+
+.option_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5px;
+}
+
+.labels_btn {
+    height: 30px;
+    width: 35px;
+    display: grid;
+    justify-self: end;
+    background: transparent;
+    border: none;
+}
+
+.labels_btn svg {
+    justify-self: center;
+    align-self: center;
+}
+
+.words {
+    align-self: end;
+}
+
+.option_container svg{
+    justify-self: end;
+}

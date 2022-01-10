@@ -1,0 +1,78 @@
+.container_header {
+    background-color: #F0F0F0;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    cursor: pointer;
+}
+
+.menu_user {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 60px auto 40px;
+}
+
+.avatar_box {
+    align-self: center;
+    padding-left: 20px;
+}
+
+.avatar {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+}
+
+.text_box {
+    align-self: center;
+    padding-left: 10px;
+    min-width: 120px;
+}
+
+.text_box p {
+    color: black;
+    font-size: 14pt;
+}
+
+.arrow {
+    padding-right: 10px;
+    align-self: center;
+}
+
+.date_vis {
+    font-size: 16pt;
+    align-self: center;
+    justify-self: start;
+}
+
+.visible_list {
+    align-self: center;
+    justify-self: end;
+    margin-right: 30px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 50%;
+    display: grid;
+    background: linear-gradient(45deg, #f0f0f0, #cacaca);
+    box-shadow:  5px -5px 20px #5a5a5a,
+    -5px 5px 20px #ffffff;
+}
+
+.visible_list:active {
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 20px #9d9d9d,
+    inset -5px -5px 20px #ffffff;
+}
+
+.visible_list svg{
+    justify-self: center;
+    align-self: center;
+}
+
+.container_header .visible_list input[type=button] {
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #313030;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,10 @@
+.bac{
+    border-bottom: 1px solid black;
+    background: #636161;
+}
+
+.status{
+    font-size: 20pt;
+    padding-top: 15px;
+    padding-left: 10px;
+}

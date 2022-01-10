@@ -1,0 +1,91 @@
+.container_modal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.container_modal .title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 16pt;
+    padding: 10px 10px 10px 10px;
+}
+
+.container_modal .hr {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0 0 0 0;
+    background-color: #646664;
+    color: #646664;
+    height: 1px;
+}
+
+.container_modal label {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 14pt;
+    padding: 10px 10px 10px 10px;
+}
+
+.container_modal input[type=text] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 16pt;
+    width: 400px;
+    margin: 0 10px 0 10px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.container_modal input[type=text]:hover {
+    outline: 1px solid black;
+}
+
+.container_modal input[type=text]:focus {
+    outline: 1px solid black;
+}
+
+.container_modal .push {
+    background: #006400;
+    border: 1px solid #006400;
+}
+
+.container_modal .push:hover {
+    border: 1px solid #008000;
+    background: #008000;
+    color: white;
+}
+
+.container_modal .push:disabled {
+    border: 1px solid #556B2F;
+    background: #556B2F;
+    color: black;
+}
+
+.container_modal .push:disabled:hover {
+    background: #556B2F;
+    color: black;
+}
+
+.container_modal .none {
+    background: #8B0000;
+    border: 1px solid #8B0000;
+}
+
+.container_modal .none:hover {
+    background: #B22222;
+    border: 1px solid #B22222;
+    color: white;
+}
+
+
+.container_modal .btn {
+    margin: 20px 10px 20px 10px;
+    border-radius: 5px;
+    font-size: 16pt;
+    height: 40px;
+}
+
+.container_modal input[type=color]{
+    margin: 0 0 10px 10px;
+}

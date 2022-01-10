@@ -1,0 +1,31 @@
+.scroll_con{
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #636161 #C0C0C0;
+    height: 100%;
+    background: #F0F0F0;
+    box-shadow: inset 0 0 5px #a8a8a8, inset -10px 10px 15px #a8a8a8;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar,
+.scroll_con *::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track,
+.scroll_con *::-webkit-scrollbar-track {
+    background: #C0C0C0;
+}
+
+*::-webkit-scrollbar-thumb,
+.scroll_con *::-webkit-scrollbar-thumb {
+    background-color: #636161;
+}
+
+.empty_record{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 20px;
+}

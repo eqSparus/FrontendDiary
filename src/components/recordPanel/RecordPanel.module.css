@@ -1,0 +1,12 @@
+.record_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px 1fr;
+    margin: 0 250px 0 250px;
+}
+
+.pos{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

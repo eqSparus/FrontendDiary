@@ -1,0 +1,36 @@
+.box_item {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset -30px -30px 50px #cccccc,
+    inset 30px 30px 50px #f4f4f4;
+}
+
+.box_item:hover {
+    box-shadow: inset -30px -30px 50px #a8a8a8,
+    inset 30px 30px 50px #a8a8a8;
+}
+
+.box_item:hover:after {
+    content: attr(tooltip);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    font-size: 8pt;
+    padding: 3px 0;
+    width: 100%;
+}
+
+.box_item div {
+    display: grid;
+}
+
+.svg_sprite {
+    justify-self: center;
+    align-self: center;
+}

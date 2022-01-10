@@ -1,0 +1,35 @@
+.message_container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    padding: 10px;
+}
+
+.message_container:hover {
+    background: #a8a8a8;
+}
+
+
+.label {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: start;
+}
+
+.option_message {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.option_message button{
+    border: none;
+    background: transparent;
+}
+
+.option_message .btn_none {
+    display: none;
+}
+
+.option_message .btn_active{
+    display: block;
+}

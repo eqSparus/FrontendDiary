@@ -1,0 +1,38 @@
+.container {
+    grid-row-start: span 5;
+    grid-row-end: span 6;
+    margin-top: 20px;
+    background: #F0F0F0;
+    box-shadow: inset 0 0 5px #a8a8a8,
+    inset -10px 10px 15px #a8a8a8;
+    display: none;
+    border-radius: 15px 0 0 15px;
+    height: 95%;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    background: transparent;
+    border: none;
+    justify-self: center;
+}
+
+.btn:hover {
+    background: linear-gradient(0, #a8a8a8, transparent);
+}
+
+.active_btn {
+    background: #a8a8a8;
+}
+
+.active {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 1fr;
+}
+
+
+
+
+

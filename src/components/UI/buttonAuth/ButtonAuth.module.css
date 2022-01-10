@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px 0 10px 0;
+    font-size: 18pt;
+    border: solid 1px #313030;
+    border-radius: 10px;
+    background: #313030;
+    color: #FFFCFC;
+    text-align: center;
+}
+
+.btn:hover{
+    box-shadow: inset 0 0 20px 0 black;
+    background: transparent;
+    color: black;
+}
+
+.btn:disabled{
+    background: #636161;
+}
+
+.btn:disabled:hover{
+    box-shadow: none;
+    color: #FFFCFC;
+}
