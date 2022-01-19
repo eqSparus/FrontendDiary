@@ -2,11 +2,11 @@
 
 Это веб-приложение приложение разработаное на языке JavaScript явялется учебным проектом
 
-### О проекте
----
-Это приложение для создание каких-либо заметок
+## О проекте
 
-<b>Функции приложения</b>
+Это приложение для хранения каких-либо записей и заметок
+
+__Функции приложения__
 
 - регистрация аккаунта;
 - авторищация аккаунта;
@@ -28,18 +28,17 @@
 - CSS
 - HTML
 
-<br>
-<h1 align="center">In English</h1>
+---
 
-# FrontendDiary
+<h1 align="center">In English</h1>
 
 This web application application developed in JavaScript language is a learning project
 
-### About the project
----
-This is an application for taking any notes
+## About the project
 
-<b>Application Features</b>
+This application is for storing any records and notes
+
+__Application Features__
 
 - account registration;
 - account authorization;
